@@ -10,10 +10,9 @@ body {
 .weather-app {
   font-family: "Roboto Condensed", serif;
   background-color: white;
-  display: block;
-  justify-content: center;
-  padding: 20px;
-  margin: 80px 50px;
+  max-width: 600px;
+  padding: 30px;
+  margin: 80px auto;
   border-radius: 20px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
 }
