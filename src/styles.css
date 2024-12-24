@@ -27,6 +27,15 @@ main {
   line-height: 48px;
 }
 
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.weather-app-details strong {
+  color: rgb(139, 31, 89);
+}
+
 .weather-app {
   font-family: "Roboto Condensed", serif;
   color: rgba(193, 43, 123);
