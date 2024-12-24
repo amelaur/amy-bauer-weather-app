@@ -37,5 +37,6 @@ body {
   border-radius: 6px;
   color: white;
   background-color: rgb(245, 118, 185);
-  width: 18%;
+  width: 16%;
+  margin-left: 10px;
 }
