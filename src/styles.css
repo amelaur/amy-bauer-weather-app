@@ -70,11 +70,12 @@ main {
   font-weight: 400px;
   margin-left: 10px;
   margin-right: 10px;
+  line-height: 88px;
 }
 
 .weather-app-icon {
   width: 88px;
-  margin-top: 10px;
+  line-height: 88px;
 }
 
 .weather-app-unit {
