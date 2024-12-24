@@ -81,6 +81,7 @@ main {
 .weather-app-unit {
   margin-top: 16px;
   font-size: 28px;
+  line-height: 88px;
 }
 
 .weather-app {
