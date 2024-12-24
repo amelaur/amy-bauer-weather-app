@@ -14,6 +14,7 @@ header {
 
 .weather-app {
   font-family: "Roboto Condensed", serif;
+  color: rgba(193, 43, 123, 0.8);
   background-color: white;
   max-width: 600px;
   padding: 30px;
