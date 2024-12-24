@@ -19,6 +19,9 @@ function formatDate(date) {
   let hours = date.getHours();
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   let day = days[date.getDay()];
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  
   return `${day}, ${hours}:${minutes}`;
 }
 
