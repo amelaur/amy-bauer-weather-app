@@ -66,6 +66,7 @@ main {
 
 .weather-app-temperature {
   font-size: 88px;
+  line-gap-override: 1;
   font-weight: 500px;
   margin-left: 10px;
 }
