@@ -9,4 +9,6 @@ body {
 
 .weather-app {
   background-color: white;
+  display: block;
+  justify-content: center;
 }
