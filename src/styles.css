@@ -12,6 +12,30 @@ header {
   padding: 20px 0;
 }
 
+.search-form-input {
+  width: 80%;
+  border: none;
+  background-color: #f7e6f5;
+  opacity: 0.8;
+  background-image: radial-gradient(#ecb5ec 1.05px, transparent 1.05px),
+    radial-gradient(#ecb5ec 1.05px, #f7e6f5 1.05px);
+  background-size: 42px 42px;
+  background-position: 0 0, 21px 21px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(245, 118, 185);
+  width: 16%;
+  margin-left: 10px;
+}
+
 main {
   padding: 30px 0;
 }
@@ -36,10 +60,24 @@ main {
   color: rgb(139, 31, 89);
 }
 
+.weather-app-temperature-container {
+  display: flex;
+}
+
 .weather-app-temperature {
-  font-size: 96px;
-  line-height: 120px;
-  margin: 0;
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 30px;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
 
 .weather-app {
@@ -51,30 +89,6 @@ main {
   margin: 80px auto;
   border-radius: 20px;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.2);
-}
-
-.search-form-input {
-  width: 80%;
-  border: none;
-  background-color: #f7e6f5;
-  opacity: 0.8;
-  background-image: radial-gradient(#ecb5ec 1.05px, transparent 1.05px),
-    radial-gradient(#ecb5ec 1.05px, #f7e6f5 1.05px);
-  background-size: 42px 42px;
-  background-position: 0 0, 21px 21px;
-  padding: 15px 20px;
-  border-radius: 6px;
-  font-size: 16px;
-}
-
-.search-form-button {
-  padding: 15px 20px;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  background-color: rgb(245, 118, 185);
-  width: 16%;
-  margin-left: 10px;
 }
 
 footer {
