@@ -26,4 +26,6 @@ body {
     radial-gradient(#ecb5ec 1.05px, #f7e6f5 1.05px);
   background-size: 42px 42px;
   background-position: 0 0, 21px 21px;
+  padding: 15px;
+  border-radius: 6px;
 }
