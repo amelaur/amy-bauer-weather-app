@@ -8,7 +8,7 @@ body {
 }
 
 .weather-app {
-  text-family: "Roboto Condensed";
+  text-family: "Roboto Condensed", serif;
   background-color: white;
   display: block;
   justify-content: center;
