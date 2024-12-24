@@ -9,6 +9,18 @@ function refreshWeather(response) {
   humidityElement.innerHTML = response.data.temperature.humidity;
   let speedElement = document.querySelector("#speed");
   speedElement.innerHTML = response.data.wind.speed;
+  let timeElement = document.querySelector("#time");
+  let date = new Date(response.data.time * 1000);
+  timeElement.innerHTML = formatDate(date);
+}
+
+function formatDate(date) {
+  let day = date.getDay();
+  let minutes = date.getMinutes();
+  let hours = date.getHours();
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let day = days[date.getDay()];
+  return `${day}, ${hours}:${minutes}`;
 }
 
 function searchCity(city) {
