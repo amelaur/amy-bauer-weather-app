@@ -36,6 +36,12 @@ main {
   color: rgb(139, 31, 89);
 }
 
+.weather-app-temperature {
+  font-size: 96px;
+  line-height: 120px;
+  margin: 0;
+}
+
 .weather-app {
   font-family: "Roboto Condensed", serif;
   color: rgba(193, 43, 123);
