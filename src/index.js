@@ -7,7 +7,7 @@ function refreshWeather(response) {
   descriptionElement.innerHTML = response.data.condition.description;
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = response.data.temperature.humidity;
-  let speedElement = document.querySelector("#wind");
+  let speedElement = document.querySelector("#speed");
   speedElement.innerHTML = response.data.wind.speed;
 }
 
