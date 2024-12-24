@@ -8,11 +8,11 @@ body {
 }
 
 .weather-app {
-  background-color: white;
+  background-color: white, 0.8;
   display: block;
   justify-content: center;
   padding: 20px;
-  margin: 100px 50px;
+  margin: 80px 50px;
   border-radius: 20px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
