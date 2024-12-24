@@ -7,6 +7,11 @@ body {
   background-position: 0 0, 21px 21px;
 }
 
+header {
+  border-bottom: 1px solid #f7e6f5;
+  padding: 20px 0;
+}
+
 .weather-app {
   font-family: "Roboto Condensed", serif;
   background-color: white;
@@ -39,4 +44,9 @@ body {
   background-color: rgb(245, 118, 185);
   width: 16%;
   margin-left: 10px;
+}
+
+footer {
+  border-top: 1px solid #f7e6f5;
+  padding: 20px 0;
 }
