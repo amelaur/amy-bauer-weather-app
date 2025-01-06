@@ -96,9 +96,8 @@ main {
 }
 
 .weather-forecast {
-  display: inline-flex;
+  display: flex;
   justify-content: space-evenly;
-  width: 19%;
   margin-top: 30px;
   margin-bottom: 20px;
 }
