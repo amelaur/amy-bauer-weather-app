@@ -96,8 +96,11 @@ main {
 }
 
 .weather-forecast {
-  display: flex;
-  justify-content: inherit;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 19%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .weather-forecast-date {
