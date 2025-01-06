@@ -112,6 +112,7 @@ main {
 .weather-forecast-temperatures {
   text-align: center;
   color: rgba(193, 43, 123, 0.8);
+  display: flex;
 }
 
 footer {
