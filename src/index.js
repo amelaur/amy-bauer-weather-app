@@ -39,7 +39,26 @@ function handleSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let forecast = document.querySelector("#forecast");
+
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+
+  days.forEach(function (day) {
+    forecast.innerHTML = `
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-icon">⛅️</div>
+            <div class="weather-forecast-temperatures">
+              <strong>19°</strong> 21°
+            </div>
+          </div>
+        `;
+  });
+}
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Berlin");
+displayForecast();
